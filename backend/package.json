@@ -1,0 +1,27 @@
+{
+  "name": "ai-rag-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "ingest:eval": "node src/ingestEvaluation.js",
+    "start": "node src/server.js",
+    "test:chat": "node --test src/utils/chat.test.js",
+    "ask": "node src/ask.js",
+    "test:rag": "node --test src/utils/rag.test.js",
+    "test:chunk": "node src/utils/chunk.test.js",
+    "test:embedding": "node src/utils/embedding.test.js",
+    "test:vector": "node src/utils/vector.test.js",
+    "export:chunks": "node src/utils/export-chunk-catalog.js",
+    "test:evaluation": "node src/utils/evaluation.test.js",
+    "test:bm25": "node src/utils/bm25.test.js",
+    "test:bm25:chroma": "node src/utils/bm25-chroma.test.js",
+    "test:hybrid": "node src/utils/hybrid.test.js",
+    "test:reranker": "node src/utils/reranker.test.js",
+   "test:version": "node src/utils/version.test.js",
+"test:ingest-version": "node src/utils/ingest-version.test.js"
+  },
+  "dependencies": {
+    "chromadb-client": "^2.4.6",
+    "dotenv": "^18.0.10"
+  }
+}

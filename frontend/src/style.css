@@ -1,0 +1,94 @@
+:root {
+    font-family: Inter, "Microsoft YaHei", "PingFang SC", sans-serif;
+    color: #16223a;
+    background: #f1f5fb;
+    font-synthesis: none;
+    line-height: 1.6;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 280px; }
+
+.topbar {
+    background: #12213a;
+    color: #fff;
+}
+
+.topbar-content {
+    max-width: 1100px;
+    min-height: 64px;
+    margin: auto;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 700;
+}
+
+.brand-icon {
+    padding: 3px 8px;
+    border-radius: 6px;
+    background: #aee9e3;
+    color: #123b46;
+    font-size: .875rem;
+}
+
+main {
+    width: min(100% - 40px, 760px);
+    margin: clamp(32px, 7vw, 88px) auto 60px;
+}
+
+h1, h2, h3, p { margin: 0; }
+h1 { font-size: clamp(2rem, 5vw, 3rem); line-height: 1.2; }
+.intro { color: #475670; margin-top: 12px; margin-bottom: 28px; }
+
+.panel {
+    padding: clamp(16px, 4vw, 28px);
+    border: 1px solid #d9e4f2;
+    border-radius: 16px;
+    background: white;
+}
+
+label { display: block; font-weight: 700; margin-bottom: 8px; }
+
+textarea {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #a6b5c9;
+    border-radius: 8px;
+    resize: vertical;
+    color: inherit;
+    font: inherit;
+}
+
+button {
+    min-height: 44px;
+    padding: 8px 14px;
+    border: 1px solid #a6b5c9;
+    border-radius: 8px;
+    color: #203f66;
+    background: #fff;
+    font: inherit;
+    font-size: .875rem;
+    cursor: pointer;
+}
+
+button:hover:enabled { background: #e7effb; }
+button:disabled { opacity: .65; cursor: default; }
+button:focus-visible, textarea:focus-visible { outline: 2px solid #0d64ad; outline-offset: 3px; }
+.primary { color: #fff; background: #174b99; border-color: #174b99; font-weight: 700; }
+.primary:hover:enabled { background: #103c7f; }
+.actions { display: flex; justify-content: flex-end; margin-top: 14px; }
+.examples { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 14px 0 24px; }
+.examples span { color: #475670; font-size: .875rem; margin-right: 4px; }
+.error { color: #9c2828; margin-top: 8px; }
+.feedback .error { margin: 0 0 10px; }
+.response h2 { font-size: 1.125rem; margin-bottom: 8px; }
+.answer { white-space: pre-wrap; overflow-wrap: anywhere; }
+.sources { margin-top: 20px; padding-top: 14px; border-top: 1px solid #d9e4f2; }
+.sources h3 { font-size: .875rem; }
+.sources ul { list-style: none; padding: 0; margin: 8px 0 0; }
+.sources li { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; overflow-wrap: anywhere; }
+.citation { color: #174b99; font-weight: 700; }
+.sources small { color: #51607a; }

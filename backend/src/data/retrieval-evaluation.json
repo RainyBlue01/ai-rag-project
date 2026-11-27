@@ -1,0 +1,30 @@
+[
+  {
+    "id": "Q001",
+    "question": "VPN 客户端如何安装？",
+    "relevantChunkIds": [
+      "vpn-guide-v1-001"
+    ]
+  },
+  {
+    "id": "Q002",
+    "question": "VPN 无法连接怎么办？",
+    "relevantChunkIds": [
+      "vpn-guide-v1-002"
+    ]
+  },
+  {
+    "id": "Q003",
+    "question": "VPN 身份验证需要什么步骤？",
+    "relevantChunkIds": [
+      "vpn-guide-v1-001"
+    ]
+  },
+  {
+    "id": "Q004",
+    "question": "VPN 认证失败应该检查什么？",
+    "relevantChunkIds": [
+      "vpn-guide-v1-002"
+    ]
+  }
+]
